@@ -4,34 +4,52 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    background-color: aqua;
+    background: aqua;
+}
+.header .head-name{
+    font-size: 20px;
+    color: peru;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
 }
 .header #header-list{
     display: flex;
-    justify-content: center;
-    text-align: center; 
-    
-   
-    align-items: center;
-  
-}
-.header #header-list a li{
     list-style: none;
-     text-align: center;
-     color: brown;
-     transition: 0.3s ease;
-     align-items: center;
-     display: flex;
-     justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
-.header #header-list a{
-  text-decoration: none;  
+.header #header-list li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+}
+.header #header-list li a{
+    text-decoration: none;
+    color:brown;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+
 }
 .header #header-list li:hover{
-    cursor: pointer;
-    background-color: white;
-    box-shadow: 5px 5px 10px;
-    padding: 5px;
-    border-radius: 15px;
+    background-color: lightgrey;
+    border-radius:25px;
+}
+.header .head-name span{
+    color: black;
+    font-size: 25px;
+}
+.header .head-name h3{
+    color: blue;
+    margin-left: 5px;
+    font-size: 27px;
 }

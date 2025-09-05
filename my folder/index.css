@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+.header #header-list{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    
+   
+    align-items: center;
+  
+}
+.header #header-list a li{
+    list-style: none;
+     text-align: center;
+     color: brown;
+     transition: 0.3s ease;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+}
+.header #header-list a{
+  text-decoration: none;  
+}
+.header #header-list li:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    padding: 5px;
+    border-radius: 15px;
+}

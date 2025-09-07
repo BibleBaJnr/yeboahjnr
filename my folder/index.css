@@ -5,6 +5,8 @@ body{
     display: flex;
     justify-content: space-between;
     background: aqua;
+    position: sticky;
+    top: 0;
 }
 .header .head-name{
     font-size: 20px;
@@ -36,20 +38,71 @@ body{
     color:brown;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px;
+    padding: 5px;  
     margin: 5px;
-
 }
+
 .header #header-list li:hover{
     background-color: lightgrey;
     border-radius:25px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 .header .head-name span{
     color: black;
     font-size: 25px;
+    text-shadow: 2px 2px 5px;
+    font-weight: 600;
 }
 .header .head-name h3{
     color: blue;
     margin-left: 5px;
     font-size: 27px;
+    text-shadow: 2px 2px 5px;
+    font-weight: 600;
+}
+
+/* offers */
+#offers-box{
+   width: 98%;
+    display: flex;
+    
+}
+
+#offers-box .offers-texts{
+ display: flex;
+ gap: 5px;
+ border: none;
+ width: 98%;
+ margin: 15px;
+}
+#offers-box .offers-texts button{
+    height: 150px;
+    width: 100%;
+    border: none;
+    box-shadow: 5px 5px 10px;
+    text-shadow: 2px 2px 3px brown;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+.search-box{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    background-color: gray;
+    padding: 5px;
+   
+}
+.search-box input{
+    height: 25px;
+    width: 350px;
+    opacity: 80%;
+    padding: 3px;
+    align-items: center;
+    text-align: center;
+    border: none;
 }

@@ -1,108 +1,129 @@
-body{
-    width: 100%;
+body {
+  width: 100%;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    background: aqua;
-    position: sticky;
-    top: 0;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: aqua;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
-.header .head-name{
-    font-size: 20px;
-    color: peru;
-    font-weight: bold;
-    margin: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
+.header .head-name {
+  font-size: 20px;
+  color: peru;
+  font-weight: bold;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
-.header #header-list{
-    display: flex;
-    list-style: none;
-    margin: 10px;
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.header #header-list {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-.header #header-list li{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    padding: 5px;
-    transition: 0.3s ease-in-out;
+.header #header-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
 }
-.header #header-list li a{
-    text-decoration: none;
-    color:brown;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 5px;  
-    margin: 5px;
+.header #header-list li a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
 }
 
-.header #header-list li:hover{
-    background-color: lightgrey;
-    border-radius:25px;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
+.header #header-list li:hover {
+  background-color: lightgrey;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-.header .head-name span{
-    color: black;
-    font-size: 25px;
-    text-shadow: 2px 2px 5px;
-    font-weight: 600;
+.header .head-name span {
+  color: black;
+  font-size: 25px;
+  text-shadow: 2px 2px 5px;
+  font-weight: 600;
 }
-.header .head-name h3{
-    color: blue;
-    margin-left: 5px;
-    font-size: 27px;
-    text-shadow: 2px 2px 5px;
-    font-weight: 600;
+.header .head-name h3 {
+  color: blue;
+  margin-left: 5px;
+  font-size: 27px;
+  text-shadow: 2px 2px 5px;
+  font-weight: 600;
 }
 
 /* offers */
-#offers-box{
-   width: 98%;
-    display: flex;
-    
+#offers-box {
+  width: 98%;
+  display: flex;
 }
 
-#offers-box .offers-texts{
- display: flex;
- gap: 5px;
- border: none;
- width: 98%;
- margin: 15px;
+#offers-box .offers-texts {
+  display: flex;
+  gap: 5px;
+  border: none;
+  width: 98%;
+  margin: 15px;
 }
-#offers-box .offers-texts button{
-    height: 150px;
-    width: 100%;
-    border: none;
-    box-shadow: 5px 5px 10px;
-    text-shadow: 2px 2px 3px brown;
-    margin: 2px;
-    font-size: 15px;
-    font-weight: bolder;
-    text-align: center;
-    align-items: center;
+#offers-box .offers-texts button {
+  height: 150px;
+  width: 100%;
+  border: none;
+  box-shadow: 5px 5px 10px;
+  text-shadow: 2px 2px 3px brown;
+  margin: 2px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
 }
-.search-box{
-    display:flex;
-    justify-content: center;
-    width: 100%;
-    margin: 10px;
-    background-color: gray;
-    padding: 5px;
-   
+.search-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+  background-color: gray;
+  padding: 5px;
 }
-.search-box input{
-    height: 25px;
-    width: 350px;
-    opacity: 80%;
-    padding: 3px;
-    align-items: center;
-    text-align: center;
-    border: none;
+.search-box input {
+  height: 25px;
+  width: 350px;
+  opacity: 80%;
+  padding: 3px;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+#image-support {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  padding: 5px;
+}
+#image-support .support-imgs {
+  width: 23%;
+  display: flex;
+  justify-content: center;
+
+  min-width: 250px;
+}
+#image-support .support-imgs img {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  gap: 5px;
+  box-shadow: 3px 3px 5px gray;
 }

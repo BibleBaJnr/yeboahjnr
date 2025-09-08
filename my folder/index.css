@@ -107,23 +107,31 @@ body {
 }
 
 #image-support {
+   border: 1px solid black;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid red;
-  padding: 5px;
+   justify-content: space-between;
+   margin-top: 30px;
+   padding: 5px;
+   
 }
-#image-support .support-imgs {
-  width: 23%;
-  display: flex;
-  justify-content: center;
-
-  min-width: 250px;
+#image-support .support-imges {
+   border: 1px solid red;
+   margin: 5px;
+   width: 23%;
+   min-width: 250px;
+   box-shadow: 6px 6px 5px;
+   padding: 5px;
+   
 }
-#image-support .support-imgs img {
-  width: 100%;
-  padding: 5px;
-  margin: 5px;
-  gap: 5px;
-  box-shadow: 3px 3px 5px gray;
+#image-support .support-imges img {
+ width: 100%;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+    font-weight: bold;
+    align-items: center;
 }

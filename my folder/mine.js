@@ -1,2 +1,2 @@
-alert('welcome to brent online')
+// alert('welcome to brent online')
 let newShip=document.querySelector('.ship')
